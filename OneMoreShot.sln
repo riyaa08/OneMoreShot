@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreShot", "OneMoreShot.csproj", "{8CFA3545-0121-4942-ABED-4C177265FD9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CFA3545-0121-4942-ABED-4C177265FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA3545-0121-4942-ABED-4C177265FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA3545-0121-4942-ABED-4C177265FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFA3545-0121-4942-ABED-4C177265FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E06A42D-E78C-4315-94AF-C6FDE9B08A13}
+	EndGlobalSection
+EndGlobal

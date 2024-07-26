@@ -1,0 +1,67 @@
+﻿@model OneMoreShot.Models.employeeData
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>employeeData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpBDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpBDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.img_name)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.img_name)*@
+            <img src="@Url.Content( Model.img_name)" height="200" width="200" />
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { EmpId = Model.EmpId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
