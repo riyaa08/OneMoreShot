@@ -51,7 +51,7 @@ namespace OneMoreShot.Controllers
             //C:\Users\ISHITA\source\repos\OneMoreShot\1\
             string fileName = Path.GetFileNameWithoutExtension(emp.img_file.FileName);
             string extention = Path.GetExtension(emp.img_file.FileName);
-            fileName=fileName+DateTime.Now.ToString("yyyymmddss")+extention;
+            fileName=fileName+DateTime.Now.ToString("yyyy-MM-dd-ss")+extention;
             emp.img_name= "~/1/" + fileName;
             fileName = Path.Combine(Server.MapPath("~/1/"),fileName);
             emp.img_file.SaveAs(fileName);
